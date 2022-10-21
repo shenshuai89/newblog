@@ -1,0 +1,14 @@
+{
+  "name": "newblog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev docs --open",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "dependencies": {
+    "vitepress": "^1.0.0-alpha.21"
+  }
+}
