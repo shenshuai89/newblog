@@ -18,5 +18,4 @@ footer: MIT Licensed | Copyright © 2016-2022【北鸟南游】-present
 
 ## 相关资源链接
 - [ming-ui](https://shenshuai.me/ming-ui-preview/) + [我的语雀](https://www.yuque.com/shenshuai89/front) + [掘金](https://juejin.cn/user/1662117314561255/posts) + [站酷](https://shenshuai.zcool.com.cn/)
-- 公众号：![北鸟南游](/assets/images/公众号搜一搜.png)
-
+- 公众号：![北鸟南游](/assets/images/wx-search.png)

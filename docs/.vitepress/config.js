@@ -18,6 +18,7 @@ module.exports = {
   // 主题配置
   themeConfig: {
     repo: "https://github.com/shenshuai89/newblog", // 你的 github 仓库地址，网页的右上角会跳转
+    lastUpdated: '上次更新',
     //   头部导航
     nav: [
       { text: "首页", link: "/" },
