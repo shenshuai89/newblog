@@ -80,10 +80,9 @@ module.exports = {
             {
               text: "原生js",
               children: [
-                {
-                  text: "js原型继承",
-                  link: "/front/javascript/js/prototype",
-                },
+                { text: "js原型继承",link: "/front/javascript/js/prototype" },
+                { text: "Es6新增属性Promise对象",link: "/front/javascript/js/Es6新增属性Promise对象" },
+                { text: "Es6新增属性generator对象",link: "/front/javascript/js/Es6新增属性generator对象" },
               ],
             },
             {
@@ -116,7 +115,9 @@ module.exports = {
             },
             {
               text: "css",
-              link: "/front/interface/css/",
+              children: [
+                { text: "flex页面布局详解",link: "/front/interface/css/flex页面布局详解" },
+              ]
             },
           ],
         },
