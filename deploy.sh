@@ -3,11 +3,12 @@
 # 忽略错误
 set -e
 
+dist_path=docs/.vuepress/dist # 打包生成的文件夹路径
 # 构建
 npm run build
 
 # 进入待发布的目录
-cd docs/.vitepress/dist
+cd docs/.vuepress/dist
 
 # 发布到自定义域名
 echo 'shenshuai.me' > CNAME
@@ -23,3 +24,4 @@ git push -f git@github.com:shenshuai89/shenshuai89.github.io.git master
 # git push -f git@github.com:<USERNAME>/<REPO>.git master:gh-pages
 
 cd -
+rm -rf $dist_path

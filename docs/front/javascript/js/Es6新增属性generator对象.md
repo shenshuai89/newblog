@@ -1,9 +1,13 @@
 ---
 title: Es6新增属性generator对象
 date: 2018-01-16 17:24:14
-categories: "前端开发"
+categories: 前端开发
 tags: 
-- JavaScript
+  - JavaScript
+permalink: /pages/7bc190/
+author: 
+  name: 北鸟南游
+  link: http://www.shenshuai.me
 ---
 
 ## generator对象的创建

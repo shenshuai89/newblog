@@ -1,9 +1,13 @@
 ---
 title: flex页面布局详解
 date: 2018-01-17 20:54:18
-categories: "前端开发"
+categories: 前端开发
 tags: 
-- css
+  - css
+permalink: /pages/9c5905/
+author: 
+  name: 北鸟南游
+  link: http://www.shenshuai.me
 ---
 
 # Flex介绍
