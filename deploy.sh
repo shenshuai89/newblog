@@ -11,7 +11,7 @@ npm run build
 cd docs/.vuepress/dist
 
 # 发布到自定义域名
-echo 'shenshuai.me' > CNAME
+echo 'shenshuai89.github.io' > CNAME
 
 git init
 git add -A
