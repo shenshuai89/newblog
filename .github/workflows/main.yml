@@ -1,5 +1,5 @@
 # 定义 Workflow 的名字
-name: 打包并上传腾讯云
+name: 同步更新blog
 
 # 定义 Workflow 的触发器；合并主分支后，执行打包
 on:
@@ -9,7 +9,7 @@ on:
 # 定义 Workflow 的 job
 jobs:
   deploy_tx:
-    name: deploy to tengxunyun
+    name: deploy to shenshuai89.github.io
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
