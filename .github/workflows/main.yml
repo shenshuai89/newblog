@@ -1,0 +1,26 @@
+# 定义 Workflow 的名字
+name: 打包并上传腾讯云
+
+# 定义 Workflow 的触发器；合并主分支后，执行打包
+on:
+  push:
+    branches:
+    - main
+# 定义 Workflow 的 job
+jobs:
+  deploy_tx:
+    name: deploy to tengxunyun
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: install node
+        uses: actions/setup-node@v3.0.0
+        with:
+          node-version: "16.x"
+          registry-url: https://registry.npmjs.org
+      - name: 全局安装yarn
+        run: npm install -g yarn
+      - name: yarn安装依赖
+        run: yarn && yarn run build
+      - name: Deploy to Server
+        run: yarn run deploy
