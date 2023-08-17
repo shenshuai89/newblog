@@ -49,4 +49,4 @@ jobs:
           # Your custom domain
           cname: # optional, default is none
           # Move to this directory before deploy
-          directory: docs/.vuepress/dist
+          directory: # optional, default is .
