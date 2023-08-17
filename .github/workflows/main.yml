@@ -48,5 +48,5 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
-          branch: gh-pages
+          branch: git@github.com:shenshuai89/shenshuai89.github.io.git master
           folder: docs/.vuepress/dist
