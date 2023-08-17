@@ -15,7 +15,7 @@ jobs:
       - name: install node
         uses: actions/setup-node@v3.0.0
         with:
-          node-version: "16.x"
+          node-version: "18.x"
           registry-url: https://registry.npmjs.org
       - name: 全局安装yarn
         run: npm install -g yarn
