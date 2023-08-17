@@ -22,8 +22,8 @@ jobs:
         run: npm install
       - name: build打包构建
         run: npm run build
-      - name: Deploy
-        uses: JamesIves/github-pages-deploy-action@v4.2.2
-        with:
-          BRANCH: gh_pages
-          FOLDER: docs/.vuepress/dist
+      # - name: Deploy
+      #   uses: JamesIves/github-pages-deploy-action@v4.2.2
+      #   with:
+      #     BRANCH: gh_pages
+      #     FOLDER: docs/.vuepress/dist
