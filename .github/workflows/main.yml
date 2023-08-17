@@ -48,5 +48,7 @@ jobs:
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.2.2
         with:
-          branch: git@github.com:shenshuai89/shenshuai89.github.io.git master
-          folder: docs/.vuepress/dist
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          REPOSITORY_NAME: shenshuai89/shenshuai89.github.io
+          BRANCH: master
+          FOLDER: docs/.vuepress/dist
