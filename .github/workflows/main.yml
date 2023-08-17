@@ -19,7 +19,7 @@ jobs:
           registry-url: https://registry.npmjs.org
       - name: 全局安装依赖
         run: npm install
-      - name: yarn安装依赖
+      - name: build打包构建
         run: npm run build
       - name: Deploy to Server
         run: npm run deploy
