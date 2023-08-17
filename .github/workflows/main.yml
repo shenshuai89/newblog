@@ -5,6 +5,9 @@ name: 同步更新blog
 on:
   push:
     branches: [ "master" ]
+
+permissions:
+  contents: write
 # 定义 Workflow 的 job
 jobs:
   build:
