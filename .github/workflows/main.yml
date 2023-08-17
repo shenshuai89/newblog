@@ -22,10 +22,9 @@ jobs:
       - name: build打包构建
         run: npm run build
       - name: Deploy to Server
-        uses: easingthemes/ssh-deploy@main
-        env:
-          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-          ARGS: "-rlgoDzvc -i --delete"
-          REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
-          REMOTE_USER: ${{ secrets.USERNAME }}
-        run: npm run deploy
+        uses: JamesIves/github-pages-deploy-action@releases/v3
+        with:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          REPOSITORY_NAME: shenshuai89/shenshuai89.github.io
+          BRANCH: master
+          FOLDER: docs/.vuepress/dist
