@@ -46,7 +46,7 @@ jobs:
       #     # folder in which generated files are stored
       #     DOCS_FOLDER: docs/.vuepress/dist
       - name: Deploy
-      uses: JamesIves/github-pages-deploy-action@v4.2.2
-      with:
-        branch: master
-        folder: docs/.vuepress/dist
+        uses: JamesIves/github-pages-deploy-action@v4.2.2
+        with:
+          branch: master
+          folder: docs/.vuepress/dist
