@@ -51,8 +51,8 @@ let firstOp = 9;
 
 let secondOp = 10;
 if (firstOp > 0) {
-}
 const aaa = 'AAA';
+}
 
 add(firstOp, secondOp);
 
