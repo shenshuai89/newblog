@@ -43,4 +43,4 @@ jobs:
           # Set the commit message
           commit-message: update blog
           # Set the target branch for deployment
-          branch: master
+          branch: https://github.com/shenshuai89/shenshuai89.github.io master
