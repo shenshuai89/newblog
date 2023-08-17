@@ -32,15 +32,21 @@ jobs:
       - name: Deploy Github Pages
         # You may pin to the exact commit or the version.
         # uses: ptienchuan/deploy-github-pages-action@abff2ab6d0300d579780d56bd3e70254c5b15403
-        uses: rdarida/simple-github-pages-deploy-action@v1
+        uses: Daniele-Tentoni/simple-github-pages-deployment@v1.0.1
         with:
-          # Set git config user.name
-          git-user: shenshuai89
-          # Set git config user.email
-          git-email: shenshuai89@qq.com
-          # Set the base folder for deploy
-          git-base-folder: docs/.vuepress/dist
-          # Set the commit message
-          commit-message: update blog
-          # Set the target branch for deployment
-          branch: https://github.com/shenshuai89/shenshuai89.github.io master
+          # Your Username or Organization name
+          username: shenshuai89
+          # Your reponame
+          reponame: https://github.com/shenshuai89/shenshuai89.github.io
+          # Your Github token
+          token: ${{ secrets.ACCESS_TOKEN }}
+          # Your git commit email
+          gitemail: shenshuai89@qq.com
+          # Your git commit name
+          gitname: shenshuai89
+          # Your git commit message
+          gitmsg: update blog
+          # Your custom domain
+          cname: # optional, default is none
+          # Move to this directory before deploy
+          directory: docs/.vuepress/dist
